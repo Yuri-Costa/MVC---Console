@@ -37,6 +37,11 @@ namespace MVCconsole
                 p.Nome = atributos[1];
                 p.preco = float.Parse(atributos[2]);
                  produtos.Add(p);
+                 
+                 if (produtos != null )
+                 {
+                     Console.WriteLine("Opa! voce não tem nenhum produto cadastrado ainda :(");
+                 }
             }
 
             return produtos;
@@ -49,7 +54,8 @@ namespace MVCconsole
         }
         public string PrepararLinhasCSV( Produto p){
 
-                return $"{p.Codigo};{p.Nome}; {p.preco}";
+          return $"{p.Codigo};{p.Nome}; {p.preco}";
+
         }
     }
 }

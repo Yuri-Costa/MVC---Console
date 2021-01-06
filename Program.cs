@@ -8,9 +8,8 @@ namespace MVCconsole
         static void Main(string[] args)
         {
            ProdutoController pc = new ProdutoController();
-           pc.Cadastrar();
-           pc.ListarProdutos();
-
+          pc.MostrarMenu();
+         
            
             
         }

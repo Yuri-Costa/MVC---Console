@@ -20,7 +20,7 @@ namespace MVCconsole.Views
 
         public Produto CadastrarProduto(){
             Produto p = new Produto();
-
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine($"Digite um codigo:");
             p.Codigo = int.Parse(Console.ReadLine());
 
@@ -29,9 +29,11 @@ namespace MVCconsole.Views
 
              Console.WriteLine($"Digite um preço:");
             p.preco = float.Parse(Console.ReadLine());
-
+            Console.ResetColor();
             return p;
             
         }
+
+
     }
 }

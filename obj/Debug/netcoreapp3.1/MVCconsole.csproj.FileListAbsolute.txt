@@ -1,0 +1,13 @@
+C:\Users\dev\Desktop\MVCconsole\bin\Debug\netcoreapp3.1\MVCconsole.exe
+C:\Users\dev\Desktop\MVCconsole\bin\Debug\netcoreapp3.1\MVCconsole.deps.json
+C:\Users\dev\Desktop\MVCconsole\bin\Debug\netcoreapp3.1\MVCconsole.runtimeconfig.json
+C:\Users\dev\Desktop\MVCconsole\bin\Debug\netcoreapp3.1\MVCconsole.runtimeconfig.dev.json
+C:\Users\dev\Desktop\MVCconsole\bin\Debug\netcoreapp3.1\MVCconsole.dll
+C:\Users\dev\Desktop\MVCconsole\bin\Debug\netcoreapp3.1\MVCconsole.pdb
+C:\Users\dev\Desktop\MVCconsole\obj\Debug\netcoreapp3.1\MVCconsole.csprojAssemblyReference.cache
+C:\Users\dev\Desktop\MVCconsole\obj\Debug\netcoreapp3.1\MVCconsole.AssemblyInfoInputs.cache
+C:\Users\dev\Desktop\MVCconsole\obj\Debug\netcoreapp3.1\MVCconsole.AssemblyInfo.cs
+C:\Users\dev\Desktop\MVCconsole\obj\Debug\netcoreapp3.1\MVCconsole.csproj.CoreCompileInputs.cache
+C:\Users\dev\Desktop\MVCconsole\obj\Debug\netcoreapp3.1\MVCconsole.dll
+C:\Users\dev\Desktop\MVCconsole\obj\Debug\netcoreapp3.1\MVCconsole.pdb
+C:\Users\dev\Desktop\MVCconsole\obj\Debug\netcoreapp3.1\MVCconsole.genruntimeconfig.cache

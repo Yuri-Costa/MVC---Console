@@ -29,6 +29,12 @@ namespace MVCconsole
             
             List<Produto> produtos = new List<Produto>();
             string[] linhas = File.ReadAllLines(PATH);
+                 
+                 if (produtos != null )
+                 {
+                     Console.WriteLine("Opa! voce não tem nenhum produto cadastrado ainda :(");
+                     return produtos;
+                 }
 
             foreach(var objeto in linhas){
                 string[] atributos = objeto.Split(";");
@@ -37,11 +43,6 @@ namespace MVCconsole
                 p.Nome = atributos[1];
                 p.preco = float.Parse(atributos[2]);
                  produtos.Add(p);
-                 
-                 if (produtos != null )
-                 {
-                     Console.WriteLine("Opa! voce não tem nenhum produto cadastrado ainda :(");
-                 }
             }
 
             return produtos;
